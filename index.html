@@ -66,6 +66,7 @@
         })
         div.addEventListener('click', function() {
             if (first.value == 0 && second.value==0) answer.innerHTML="VikaTop"
+            else if (second.value == 0) answer.innerHTML="T+V"
             else answer.innerHTML=parseInt(first.value)/parseInt(second.value)
         })
     </script>
